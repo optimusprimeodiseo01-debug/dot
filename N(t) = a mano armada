@@ -1,0 +1,41 @@
+accion
+herramientas
+permisos
+contexto
+
+              +--> observar
+              |
+estado ------>+--> investigar
+              |
+              +--> trabajar
+              |
+              +--> esperar
+              |
+              +--> recibir nueva informacion
+              |
+              +--> actualizar estado
+
+identidad
+credenciales
+acceso
+permisos
+reglas
+aprobacion
+
+A esto lo llamamos "investigacion proactiva"
+chiste?
+
+
+modo observacion
+    |
+    +--> puede leer/investigar
+    |
+    X--> no puede ejecutar determinadas acciones
+
+o sea ver y robar
+
+modo accion
+    |
+    +--> requiere permisos adicionales
+
+
